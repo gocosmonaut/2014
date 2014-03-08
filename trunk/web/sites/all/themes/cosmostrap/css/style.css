@@ -35,6 +35,7 @@ h4.panel-title a:hover {
 	display:block;
 }
 
+
 div.panel-heading {
 	padding:0px;
 }
@@ -49,6 +50,17 @@ div.modal-dialog {
 	min-width:300px;
 	max-width:1280px;
 }
+
+div.modal-header {
+background:#eee;
+}
+
+div.modal-header  h4{
+font-size:1.5em;
+/* letter-spacing:.5px; */
+}
+
+
 div.modal-body {
 	padding:0px;
 }
@@ -61,11 +73,54 @@ button.close {
 	font-size:2em;
 }
 
-div.modal-body img {
+ div.modal-body img.portfolio {
 	width:100%;
 }
 div.jumbotron p span {
 	font-size:.8em;
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row {
+margin:0px 1.5% 0px 1.5%;
+    float:left;
+    padding: 1.5%;
+    width: 23%;
+	
+}
+
+section#block-views-projects-block-1 {
+	background:red;
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row div.views-field.views-field-field-project-screenshots  {
+	
+	min-height:170px
+}
+
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row div.views-field.views-field-field-project-screenshots img {
+	width:100%;
+	height:auto;
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row-first {
+	
+	margin:0% 1% 0% 0% !important;
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row-4{
+	
+	margin:0 0% 0% 1% !important;
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row-odd {
+	background:#eee
+	
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row-even {
+	background:#ddd;
+	
 }
 
 p.jt-tiny, p.jt-phone, p.jt-MCGA,
