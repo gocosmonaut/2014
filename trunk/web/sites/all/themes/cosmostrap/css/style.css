@@ -5,8 +5,30 @@
 body {
 }
 header#navbar {
-	box-shadow:1px 1px 3px #666;
-	border-bottom:1px solid #888;
+	background:white;
+	
+	
+}
+
+header#navbar.navbar .container {
+	margin-bottom:15px;border-bottom:1px solid #bbb;
+	padding:1% 0% .5%;
+}
+
+header#navbar.navbar-fixed-top.navbar-default {
+	border:0px;
+}
+
+.navbar-btn {
+	margin-top:0px;
+}
+
+div.navbar-collapse.collapse {
+	padding:0px;
+}
+
+.front h1.page-header {
+	display:none;
 }
 
 a, a:hover {
@@ -17,8 +39,21 @@ ul.menu.nav.navbar-nav {
 	float:right;
 }
 
-.jumbotron {
-	background:black;
+.container .jumbotron {
+	background:url(../../../../default/files/responsive_1170.jpg) top left no-repeat;
+	max-width:1170px;
+	height:400px;
+	width:100%;
+	padding: 25% 0 0 4%;
+	border-radius:9px;
+}
+
+.container div.resolution {
+	width:37%;
+}
+
+div.main-container.container {
+	padding:0px;
 }
 
 h4 {
@@ -46,7 +81,7 @@ div.panel-heading:hover {
 }
 
 div.modal-dialog {
-	width:84%;
+	width:80%;
 	min-width:300px;
 	max-width:1280px;
 }
@@ -71,6 +106,38 @@ div.modal-footer {
 
 button.close {
 	font-size:2em;
+}
+
+div.social-icon {
+	background:#bbb;
+	float:right;
+	padding:4px;
+	margin-left:10px;
+	border-radius:9px;
+	transition: all 0.2s ease;
+	display:block;
+}
+
+div.social-icon:hover {
+	border-radius:0px;
+	transition: all 0.3s ease;
+	background:#9A0000;
+	display:block;
+}
+
+
+div.social-icon img {
+	width:21px;
+	height:auto;
+}
+
+div.social-icon img a {
+	
+	display:block;
+}
+
+div.social-icon img a:hover {
+	display:block;
 }
 
  div.modal-body img.portfolio {
@@ -114,7 +181,14 @@ section#block-views-projects-block-1 div.view div.view-content div.views-row-4{
 }
 
 section#block-views-projects-block-1 div.view div.view-content div.views-row-odd {
-	background:#eee
+	background:#eee;
+	transition: all 0.5s ease;
+}
+
+section#block-views-projects-block-1 div.view div.view-content div.views-row-odd:hover {
+	transition: all 0.3s ease;
+  background: red;
+ 
 	
 }
 
@@ -141,6 +215,9 @@ p.jt-HXGA,
 p.jt-massive 
  {
 	display:none;
+	color:white;
+	line-height:140%;
+	font-size:.9em;
 }
 
 	@media only screen and  (min-width: 0px) and (max-width: 319px) { /*TINY */
@@ -184,6 +261,17 @@ p.jt-massive
 		p.jt-XGA {
 			display:block;
 		}
+	}
+	
+	@media only screen and  (min-width: 900px) and (max-width: 1199px) { 
+	
+	.container .jumbotron {
+	background:url(../../../../default/files/responsive_970.jpg) top left no-repeat;
+	max-width:970px;
+	height:332px;
+	width:100%;
+	font-size:1.35em;
+}
 	}
 	
 				@media only screen and  (min-width: 1152px) and (max-width: 1279px) { /* XGA plus */
