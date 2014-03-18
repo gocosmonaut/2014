@@ -146,7 +146,7 @@ div.social-icon img a:hover {
 div.jumbotron p span {
 	font-size:.8em;
 }
-
+/*
 section#block-views-projects-block-1 div.view div.view-content div.views-row {
 margin:0px 1.5% 0px 1.5%;
     float:left;
@@ -196,6 +196,13 @@ section#block-views-projects-block-1 div.view div.view-content div.views-row-eve
 	background:#ddd;
 	
 }
+*/
+
+.front div.views-field.views-field-field-project-screenshots img {
+	width:100%;
+	height:auto;
+}
+
 
 p.jt-tiny, p.jt-phone, p.jt-MCGA,
 p.jt-VGA, p.jt-SVGA, p.jt-XGA, p.jt-XGA-plus,
