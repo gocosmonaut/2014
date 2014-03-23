@@ -2,8 +2,20 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file. 
  */
-body {
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+body, h1, h2, h3, a {
+	font-family: 'Oxygen', sans-serif;
 }
+a {
+	color:#9A0000;
+	transition: all 0.3s ease;
+}
+a:hover {
+	transition: all 0.3s ease;
+	color:red;
+}
+
 header#navbar {
 	background:white;
 	
@@ -12,7 +24,7 @@ header#navbar {
 
 header#navbar.navbar .container {
 	margin-bottom:15px;border-bottom:1px solid #bbb;
-	padding:1% 0% .5%;
+	padding:2% 0% .5%;
 }
 
 header#navbar.navbar-fixed-top.navbar-default {
@@ -31,6 +43,31 @@ div.navbar-collapse.collapse {
 	display:none;
 }
 
+.front h1 {
+	font-size:3em;
+	font-weight:300;
+	letter-spacing:0.5px;
+	padding:2px;
+margin:3.5% 0% 3% 0%;
+}
+
+.front h1 a {
+	padding:0px 1% .5%;
+	margin-right:5px;
+	font-weight:400;
+	font-size:1.25em;
+
+	background:#FFCC00;
+	border-radius:6px;
+	
+}
+
+.front h1 a:hover {
+	background:red;
+	color:white;
+}
+
+
 a, a:hover {
 	text-decoration:none;
 }
@@ -45,6 +82,7 @@ ul.menu.nav.navbar-nav {
 	height:400px;
 	width:100%;
 	padding: 25% 0 0 4%;
+	margin-top:1%;
 	border-radius:9px;
 }
 
@@ -63,7 +101,8 @@ h4 {
 
 h4.panel-title a {
 	display:block;
-	padding:2%;
+    padding: 2% 3%;
+	
 }
 
 h4.panel-title a:hover {
@@ -197,6 +236,19 @@ section#block-views-projects-block-1 div.view div.view-content div.views-row-eve
 	
 }
 */
+
+
+/* HOME */
+
+div.geary-column1-inner.panel-panel-inner,
+div.geary-column2-inner.panel-panel-inner {
+	
+	padding:0% 3% 0% 0%;
+}
+
+h2.pane-title {
+	margin-top:0px;
+}
 
 .front div.views-field.views-field-field-project-screenshots img {
 	width:100%;
