@@ -16,15 +16,20 @@ a:hover {
 	color:red;
 }
 
+section.col-sm-12 {
+	margin-top:12px;
+}
+
 header#navbar {
-	background:white;
+	background: white url(../../../../default/files/wings.jpg) center top no-repeat;
+	
 	
 	
 }
 
 header#navbar.navbar .container {
-	margin-bottom:15px;border-bottom:1px solid #bbb;
-	padding:2% 0% .5%;
+	margin-bottom:15px;border-bottom:1px solid #c1ba9d;
+	padding:2% 0% 1.5%;
 }
 
 header#navbar.navbar-fixed-top.navbar-default {
@@ -67,6 +72,10 @@ margin:3.5% 0% 3% 0%;
 	color:white;
 }
 
+.front h2 {
+	text-align:center;
+}
+
 
 a, a:hover {
 	text-decoration:none;
@@ -83,12 +92,19 @@ ul.menu.nav.navbar-nav {
 	width:100%;
 	padding: 25% 0 0 4%;
 	margin-top:1%;
-	border-radius:9px;
+	border-top-left-radius: 18px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 4px;
+	
 }
+
+
 
 .container div.resolution {
 	width:37%;
 }
+
 
 div.main-container.container {
 	padding:0px;
@@ -99,19 +115,31 @@ h4 {
 	line-height:normal;
 }
 
+h4.panel-title {
+
+	
+}
+
 h4.panel-title a {
 	display:block;
-    padding: 2% 3%;
+    padding: 2% 3.5%;
 	
 }
 
 h4.panel-title a:hover {
 	display:block;
+	color:white;
+	font-weight:400px;
 }
 
 
 div.panel-heading {
 	padding:0px;
+    background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #fafafa 0%, #efefef 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0%, #efefef 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0%, #efefef 100%);
+    background-image: linear-gradient(top, #fafafa 0%, #efefef 100%);
 }
 
 div.panel-heading:hover {
@@ -241,9 +269,10 @@ section#block-views-projects-block-1 div.view div.view-content div.views-row-eve
 /* HOME */
 
 div.geary-column1-inner.panel-panel-inner,
+div.geary-column2-inner.panel-panel-inner,
 div.geary-column2-inner.panel-panel-inner {
 	
-	padding:0% 3% 0% 0%;
+	padding:0% 4%;
 }
 
 h2.pane-title {
