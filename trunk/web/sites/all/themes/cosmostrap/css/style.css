@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 
 body, h1, h2, h3, a {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Oxygen', sans-serif !important;
 }
 a {
 	color:#9A0000;
@@ -72,10 +72,11 @@ margin:3.5% 0% 3% 0%;
 	color:white;
 }
 
-.front h2 {
-	text-align:center;
-}
 
+h2.front-intro {
+text-align:center;
+padding-bottom:1.5%;
+}
 
 a, a:hover {
 	text-decoration:none;
@@ -123,7 +124,7 @@ h4.panel-title {
 h4.panel-title a {
 	display:block;
     padding: 2% 3.5%;
-	
+	color:#f0e9e9;
 }
 
 h4.panel-title a:hover {
@@ -135,11 +136,12 @@ h4.panel-title a:hover {
 
 div.panel-heading {
 	padding:0px;
-    background-image: rgba(235,235,235,1);
-    background-image: -webkit-linear-gradient(top, #fafafa 0%, #efefef 100%);
-    background-image: -moz-linear-gradient(top, #fafafa 0%, #efefef 100%);
-    background-image: -o-linear-gradient(top, #fafafa 0%, #efefef 100%);
-    background-image: linear-gradient(top, #fafafa 0%, #efefef 100%);
+  background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #9a0000 0%,#700000 100%);
+    background-image: -moz-linear-gradient(top, #9a0000 0%,#700000 100%);
+    background-image: -o-linear-gradient(top, #9a0000 0%,#700000 100%);
+    background-image: linear-gradient(top, #9a0000 0%,#700000 100%);
+  
 }
 
 div.panel-heading:hover {
@@ -162,6 +164,16 @@ font-size:1.5em;
 /* letter-spacing:.5px; */
 }
 
+/* twitter */
+
+div.views-field.views-field-formatted-tweet {
+	border-bottom:1px solid #bbb;
+	font-size:.8em;
+}
+
+div.views-field.views-field-formatted-tweet a {
+	color:#9A0000;
+}
 
 div.modal-body {
 	padding:0px;
